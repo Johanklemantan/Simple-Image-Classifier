@@ -11,29 +11,8 @@ Dataset has 1000 picture of each cat, dog, and panda. Then I divided into train 
 This model were make using keras - tensorflow with Sequential model
 
 Here is the summary :
-Model: "sequential"
-_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-average_pooling2d (AveragePo (None, 49, 49, 1)         0         
-_________________________________________________________________
-conv2d (Conv2D)              (None, 47, 47, 16)        160       
-_________________________________________________________________
-conv2d_1 (Conv2D)            (None, 45, 45, 16)        2320      
-_________________________________________________________________
-max_pooling2d (MaxPooling2D) (None, 22, 22, 16)        0         
-_________________________________________________________________
-dropout (Dropout)            (None, 22, 22, 16)        0         
-_________________________________________________________________
-flatten (Flatten)            (None, 7744)              0         
-_________________________________________________________________
-dense (Dense)                (None, 512)               3965440   
-_________________________________________________________________
-dense_1 (Dense)              (None, 3)                 1539      
-=================================================================
-Total params: 3,969,459
-Trainable params: 3,969,459
-Non-trainable params: 0
+
+<img src='best_model_summary.PNG'>
 
 This model is able to predict with up to 71% accuracy.
 
