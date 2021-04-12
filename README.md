@@ -1,7 +1,7 @@
 # Simple-Image-Classifier
 Model that able to distinguish picture between dog, cat, or panda.
 
-<img src='bground.jpg',width='800'>
+<img src='bground.jpg' width='800'>
 
 
 Dataset were taken from <a href ='https://www.kaggle.com/ashishsaxena2209/animal-image-datasetdog-cat-and-panda'>Kaggle</a>
@@ -20,7 +20,7 @@ This model were make using keras - tensorflow with Sequential model
 
 Here is the summary :
 
-<img src='best_model_summary.PNG', width='400'>
+<img src='best_model_summary.PNG' width='400'>
 <br>
                                         
 Result : <br>
