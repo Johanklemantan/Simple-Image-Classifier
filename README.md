@@ -1,7 +1,7 @@
 # Simple-Image-Classifier
 Model that able to distinguish picture between dog, cat, or panda.
 <center>
-<img src='bground.jpg'>
+<img src='bground.jpg',width='800'>
   </center>
 
 Dataset were taken from <a href ='https://www.kaggle.com/ashishsaxena2209/animal-image-datasetdog-cat-and-panda'>Kaggle</a>
@@ -12,10 +12,13 @@ This model were make using keras - tensorflow with Sequential model
 
 Here is the summary :
 
-<img src='best_model_summary.PNG'>
-
-This model is able to predict with up to 71% accuracy.
+<img src='best_model_summary.PNG',width='400'>
+<br>
+                                        
+Result : <br>
+<img src='hasil.PNG'>
+This model is able to predict with up to 73% accuracy.
 
 As I will keep learning about deep learning, I believe this model's accuracy STILL can be improved.
 
-#### Thankyou and Happy Coding :)
+### Thankyou and Happy Coding :)
